@@ -20,7 +20,7 @@ if [ "$_IP" ]; then
 fi
 
 #Run video on boot
-omxplayer {} &
+omxplayer {}
 exit 0
 """.format(fileDir)
     with open("/etc/rc.local", "w+") as file_rcLocal:
